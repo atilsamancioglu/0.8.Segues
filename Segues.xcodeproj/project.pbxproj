@@ -12,6 +12,7 @@
 		FC1953401DF86E9E00C13EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC19533E1DF86E9E00C13EBC /* Main.storyboard */; };
 		FC1953421DF86E9E00C13EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1953411DF86E9E00C13EBC /* Assets.xcassets */; };
 		FC1953451DF86E9E00C13EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1953431DF86E9E00C13EBC /* LaunchScreen.storyboard */; };
+		FC19534D1DF86F5800C13EBC /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC19534C1DF86F5800C13EBC /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC1953411DF86E9E00C13EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1953441DF86E9E00C13EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1953461DF86E9E00C13EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC19534C1DF86F5800C13EBC /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FC19533A1DF86E9E00C13EBC /* AppDelegate.swift */,
 				FC19533C1DF86E9E00C13EBC /* ViewController.swift */,
+				FC19534C1DF86F5800C13EBC /* secondViewController.swift */,
 				FC19533E1DF86E9E00C13EBC /* Main.storyboard */,
 				FC1953411DF86E9E00C13EBC /* Assets.xcassets */,
 				FC1953431DF86E9E00C13EBC /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC19533D1DF86E9E00C13EBC /* ViewController.swift in Sources */,
+				FC19534D1DF86F5800C13EBC /* secondViewController.swift in Sources */,
 				FC19533B1DF86E9E00C13EBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
